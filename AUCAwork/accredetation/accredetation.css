@@ -393,9 +393,7 @@ font-size: 17px;
   .undergraduate ul li a{
     font-size: 13px;
   }
-  .card-h4::after{
-    display: none;
-  }
+
   .card-h4{
     width: 100%;
   }
@@ -440,9 +438,7 @@ font-size: 17px;
  .service-to-society ul li a{
   font-size: 10px;
  }
- .card-h4::after{
-  display: none;
-}
+
 .card-h4{
   letter-spacing: 1px;
   width: 100%;
@@ -495,7 +491,6 @@ footer .about ul li a{
   .nav__link{
     font-size: 10px;
   }
-
   .search-form button img {
     width: 15px;
     height: 13px;
