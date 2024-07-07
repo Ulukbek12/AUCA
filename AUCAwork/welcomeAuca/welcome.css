@@ -1,0 +1,522 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+                                                        /*header*/
+  header{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  ul li{
+    list-style: none;
+  }
+  .nav1{
+    padding: 1.5% 6%;
+    align-items: center;
+    background-color: #1F3058;
+  }
+  .container-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+  .nav1 img{
+    width: 200px;
+    height: 53px;
+  }
+  .nav1{
+    flex: 1;
+    text-align: right;
+  }
+  .nav1 ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+  }
+  .description ul li{
+    list-style: none;
+  }
+  .nav__item{
+    color: #D8D8D8;
+  }
+  .nav1 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav1 .circle{
+    color: #D8D8D8;
+    width: 15.67px;
+    height: 16px;
+    padding-top: 5px;
+  }
+  .search-form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc; /* Граница для формы */
+  }
+  
+  .search-form input[type="text"] {
+    border: none; /* Убираем стандартную рамку поля ввода */
+    outline: none; /* Убираем обводку при фокусе */
+    padding: 5px;
+    flex: 1; /* Поле ввода занимает всё доступное пространство */
+    background-color: #D8D8D8;
+    opacity: 0.9;
+  }
+  
+  .search-form button {
+    background-color: #1F3058;
+    border: none; /* Убираем стандартную рамку кнопки */
+    padding: 7.5px;
+    cursor: pointer; /* Курсор меняется на указатель при наведении */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-form button img {
+    width: 15px;
+    height: 13px;
+  }
+
+  .nav2{
+    margin-top: 10px;
+    background-color: #2D457C;
+  }
+  
+  .nav-links ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 28px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+    position: relative;
+  }
+  .nav__link{
+    color: #D8D8D8;
+    opacity: 0.9;
+  }
+  .nav-links ul li a{
+    font-size: 9px;
+    font-weight: 600;
+    color: #D8D8D8;
+  }
+  .nav-links{
+    margin: 0px 45px;
+  }
+  .div-direction {
+    margin-top: -10px;
+    margin-left: 170px;
+  }
+  .directions{
+    font-size: 10px;
+    color: #808080;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }  
+  .container-header{
+    margin: 0 100px;
+    
+  }
+  /*main*/
+  h1{
+    font-weight: 400;
+    font-size:36px;
+  }
+  .background{
+    background-image: url(images/A\ day\ at\ American\ University\ of\ Central\ Asia\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 1px;
+}
+.main-container{
+    margin-left: 170px;
+    margin-right: 100px;
+}
+.dots img{
+    width: 0.8%;
+}
+.content-1{
+    text-align: center;
+    margin-top: 350px;
+}
+.button-holder{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.subtitle p {
+    font-size: 11px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-weight: 200;
+}
+.welcome{
+    background-color:#2D457C;
+    width: 30%;
+    margin: auto;
+    padding: 20px 10px;
+}
+.welcome h1{
+ color: #FFFFFF;
+}
+button{
+    border: none;
+}
+.button-1 button{
+    background-color: #B71C1C;
+    padding: 10px 40px;
+    margin-right: 25px;
+    color: #fff;
+}
+.button-2 button{
+    background-color: #2D457C;
+    padding: 10px 45px;
+    margin-right: 25px;
+    color: #fff;
+}
+.section-1{
+    margin-top: 170px;
+}
+
+.section-1-title{
+    margin-bottom: 30px;
+}
+.section-1-subtitle{
+    margin-bottom: 40px;
+    font-weight: 200;
+    width: 85%;
+}
+.sides-holder{
+    display: flex;
+    align-items:flex-start;
+}
+.mini-sides-holder{
+    display: flex;
+    align-items: center;
+}
+.mini-president img{
+    width: 320px;
+}
+.mini-president{
+    margin-right: 35px;
+}
+.mini-content p {
+    font-weight: 500;
+    font-size: 12px;
+}
+.mini-content {
+    width: 350px;
+}
+.dir{
+    background-color: #2D457C;
+    width: 5%;
+    height:20px;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding-right: 2px;
+}
+.dir img{
+    width: 20px;
+    margin-right: 2px;
+    margin-top: 3px;
+
+}
+.right-side{
+    margin-top: -40px;
+}
+
+.learn-more{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.learn-more-content{
+    margin-left: -5px;
+}
+.learn-more-content p{
+    font-weight: 200;
+    opacity: 0.7;
+    font-size: 11px;
+}
+.learn-more-content a{
+    color:#000;
+}
+.osun-image img,
+.tsi-image img{
+    width: 240px;
+}
+.upcoming-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.upcoming-title h1{
+    font-weight: 700;
+    font-size: 15px;
+}
+.upcoming-card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.important p{
+    font-size: 9.9px;
+    font-weight: 600;
+}
+.date{
+    background-color: #2D457C;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 6px 10px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 8.5px;
+}
+.more-events{
+    display: flex;
+}
+.events-dir{
+    padding-right: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px; 
+}
+
+.section-2{
+    margin-top: 100px;
+}
+.section-2-title {
+    font-weight: bold;
+}
+.section-2-title span{
+    color: #2D457C;
+}
+
+.section-2-card{
+    margin-top: 30px;
+ 
+}
+.high-image img{
+    width: 100%;
+}
+.read-more a{
+    color: #3665AB;
+}
+
+.section-2-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px; /* Space between grid items */
+}
+.high-title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.high-title h4{
+    font-size: 14px;
+}
+.high-subtitle2{
+  margin-top: 30px;
+}
+.high-subtitle4{
+  margin-top: 15px;
+}
+.high-subtitle3{
+  margin-top: 15px;
+}
+.high-subtitle p{
+    font-size: 11.5px;
+    font-weight: 500;
+}
+.high-subtitle a{
+    margin-left: 10px;
+    color: #3665AB;
+    font-size: 9px;
+    opacity: 0.6;
+}
+.section-3-learn-content{
+  margin-top: -10px;
+}
+.section-3-dir img{
+ width: 80%;
+}
+.section-3-learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-learn-content a{
+    color: #2D457C;
+    font-weight: 600;
+    font-size: 38px;
+    margin-right: 20px;
+}
+.section-4-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-4-card{
+    text-align: center;
+}
+.section-4-image img{
+    width: 250px;
+}
+.section-4-title{
+    margin-bottom: 10px;
+}
+.section-4-title h1{
+    font-size: 15px;
+    color: #2D457C;
+    font-weight: 500;
+}
+.section-3{
+    margin-top: 100px;
+}
+.section-4{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+   /*footer*/
+  footer{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    background-color: #1F3058;
+  }
+  .container-footer{
+    margin-left: 120px;
+    margin-right: 150px;
+  }
+  .social-medias{
+    padding-top: 13px;
+  }
+  .social-items a img{
+    width: 18px;
+    margin-right: 6px;
+  }
+  .social-medias p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .social-items{
+    display: flex;
+  }
+  footer .about h4{
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  footer .about ul li{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  .card-h4{
+    letter-spacing: 1px;
+    width: 70%;
+  }
+  .card-h4::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #DBA620;
+    display: block;
+  
+    transition: 0.35s linear;
+  }
+  .about{
+    margin-bottom: 60px;
+  }
+  .service-to-society p{
+   color: #fff;
+   opacity: 0.8;
+   margin-bottom: 10px;
+  }
+  
+  .service-to-society ul li{
+    opacity: 0.8;
+    margin-bottom: 10px;
+  }
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  
+  .colored-line {
+    border: none; /* Убираем стандартное оформление линии */
+    height: 2px; /* Задаем высоту линии */
+    background-color: #DBA620; /* Устанавливаем цвет линии */
+    margin-top: 10px;
+  }
+  
+  .footer-info{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .address{
+    margin-right: 30px;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+  
+  .address h5{
+   font-size: 13px;
+   font-weight: 400;
+   margin-bottom: 2px;
+  }
+  .address p{
+    font-size: 12px;
+    font-weight:lighter;
+  }
+  .contacts{
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+  .contacts h5{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 2px;
+   }
+   .contacts p{
+     font-size: 12px;
+     font-weight:lighter;
+   }
+   .with-icon{
+    display: flex;
+    align-items:center;
+   }
+   .with-icon img{
+    margin-right: 9px;
+   }
+   .lii{
+    margin-top: -7px;
+   }
