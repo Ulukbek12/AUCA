@@ -124,7 +124,7 @@ ul li{
   font-size: 12px;
   font-weight: 700;
   color: #D8D8D8;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .nav-links{
   margin: 0px 45px;
@@ -263,27 +263,29 @@ footer{
 .social-items{
   display: flex;
 }
-footer .about h4{
+
+footer .about ul li{
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-weight: 400;
+  opacity: 0.8;
+}
+footer .about ul li a{
+  font-size: 14px;
+  opacity: 0.9;
+}
+.card-h4{
+  letter-spacing: 1px;
+  width: 100%;
   color: #fff;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 10px;
   position: relative;
 }
-footer .about ul li{
-  margin-bottom: 10px;
-  color: #FFFFFF;
-  font-size: 20px;
-  font-weight: 400;
-  opacity: 0.8;
-}
-.card-h4{
-  letter-spacing: 1px;
-  width: 70%;
-}
 .card-h4::after{
   content: '';
-  width: 100%;
+  width: 85%;
   height: 2px;
   background: #DBA620;
   display: block;
@@ -296,11 +298,14 @@ footer .about ul li{
  color: #fff;
  opacity: 0.8;
  margin-bottom: 10px;
+font-size: 17px;
 }
 
 .service-to-society ul li{
   opacity: 0.8;
   margin-bottom: 10px;
+  font-size: 15px;
+  opacity: 0.9;
 }
 .cards{
   display: flex;
@@ -327,12 +332,12 @@ footer .about ul li{
 }
 
 .address h5{
- font-size: 13px;
- font-weight: 400;
+ font-size: 15px;
+ font-weight: 500;
  margin-bottom: 2px;
 }
 .address p{
-  font-size: 12px;
+  font-size: 14px;
   font-weight:lighter;
 }
 .contacts{
@@ -340,12 +345,12 @@ footer .about ul li{
   letter-spacing: 0.5px;
 }
 .contacts h5{
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
   margin-bottom: 2px;
  }
  .contacts p{
-   font-size: 12px;
+   font-size: 14px;
    font-weight:lighter;
  }
  .with-icon{
@@ -357,6 +362,55 @@ footer .about ul li{
  }
  .lii{
   margin-top: -7px;
+ }
+ @media (max-width:1326px){
+  .nav-links ul li a{
+    font-size: 9px;
+  }
+  .directions{
+    font-size: 11px;
+  }
+  .parag{
+    font-size: 15px;
+  }
+  .title{
+    font-size: 25px;
+  }
+  .glance_submenu{
+    width: 250px;
+    padding: 20px 1px 20px 30px;
+  }
+  .description h4{
+    font-size: 14px
+  }
+  
+  .description ul li a{
+    font-size: 12px;
+  }
+  .undergraduate h4{
+    font-size: 15px;
+  }
+  .undergraduate ul li a{
+    font-size: 13px;
+  }
+  .card-h4::after{
+    display: none;
+  }
+  .card-h4{
+    width: 100%;
+  }
+  footer .about ul li a{
+    font-size: 12px;
+  }
+  .address p,
+  .contacts p{
+    font-size: 10px;
+  }
+  .address h5,
+  .contacts h5{
+    font-size: 13px;
+  }
+
  }
 
  @media (max-width:1110px) {
@@ -376,12 +430,7 @@ footer .about ul li{
   .description ul li a{
     font-size: 9px;
   }
-  .undergraduate ul li a,
-  .graduate ul li a{
-  font-size: 10px;
-  color: #1E1E1E;
-  font-weight: 400;
-}
+
  .undergraduate h4{
   font-size: 12px;
  }
@@ -419,6 +468,9 @@ footer .about ul li{
 .social-items a img{
   width: 80%;
 }
+footer .about ul li a{
+  font-size: 10px;
+}
  }
  
  @media (max-width:1000px){
@@ -426,7 +478,11 @@ footer .about ul li{
   .div-direction{
     margin-left: 140px;
   }
+  .nav__item .circle{
+    width: 20px;
+  }
  } 
+
  @media (max-width:900px){
   .left-right-sides-holder{
     display: flex;
@@ -444,14 +500,27 @@ footer .about ul li{
     width: 15px;
     height: 13px;
   }
-
+  .about ul,
+  .service-to-society{
+    display: none;
+  }
+  .colored-line{
+    display: none;
+  }
+  .footer-info{
+    margin-top: -20px;
+  
+  }
+  .social-items{
+    width: 35%;
+  }
  }
  
  @media (max-width:800px){
   .container-nav{
     display: block;
-    background-color: #1F3058;
-    margin: 0px;
+    margin: 5px;
+    padding-bottom: 0px;
   }
   .nav1{
     margin: 0px;
@@ -460,29 +529,30 @@ footer .about ul li{
   }
   .logo_image{    
     text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  .nav_menu{
+    padding: 0% 6%;
+    padding-top: 2%;
     position: relative;
   }
-  .logo_image::after{
+  .nav_menu::before{
     content: "";
     width: 100%;
     height: 8%;
     background-color: #fff;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
-  }
-  .nav_menu{
-    margin-top: 5px;
-    padding-left: 6%;
-    padding-right: 6%;
-
   }
   .nav2{
     display: none;
   }
   .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     gap: 50px;
   }
   .service-to-society{
@@ -507,21 +577,76 @@ footer .about ul li{
 
  }
  @media (max-width:541px){
+
+  .container-footer{
+    margin-right: 20px;
+    margin-left: 40px;
+  }
   .hamb{
     display: block;
   }
   .nav__item .hamb{
-    width: 110%;
-    height: 110%;
+    width: 20px;
   }
   .nav__item .circle{
-    width: 80%;
-    height: 80%;
+    width: 20px;
   }
-  .social-items{
-    width: 40%;
+  .search-form{
+    margin-left: -15px;
+    width: 80%;
   }
   .colored-line{
     display: none;
   }
+  .cards-footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-right: 60px;
+
+  }
+  .card{
+    margin-top: -84px;
+  }
+  .footer-info{
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .about{
+    width: 100%;
+  }
+  .card-h4{
+  font-size: 10px;
+  height: 1px;
+  }
+  .address{
+    margin-bottom: 20px;
+  }
+  .contacts p {
+    font-size: 11px;
+    opacity: 0.8;
+
+  }
+  .address p{
+    font-size: 11px;
+    opacity: 0.8;
+    width: 80%;
+  }
+  .address h5,
+  .contacts h5{
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .search-form,
+  .search-form input[type="text"] {
+  width: 80%;
+  }
+
+
  }
