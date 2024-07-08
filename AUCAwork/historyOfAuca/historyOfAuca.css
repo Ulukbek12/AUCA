@@ -179,83 +179,8 @@
 .right-side2 p{
     margin-bottom: 20px;
 }
-.section-3{
-    margin-left: 105px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.card-main{
-    margin-left: 30px;
-}
-.section-3-title{
-    margin-bottom: 15px;
-}
-.section-3-title span{
-    color:#DBA620
-}
-.section-3-content{
-    width: 75%;
-    margin-left: 45px;
-    position: relative;
-}
-.section-3-content::before{
-    content: "";
-    width: 1px;
-    height: 110%;
-    position: absolute;
-    background-color: #DBA620;
-    left:-45px;
-    top:-5px;
-}
 
-.section-4-title{
-    margin-top: 120px;
-    margin-bottom: 25px;
-    color: #DBA620;
-}
-.left-side4{
-    margin-right: 40px;
-}
-.card-main-5 .section-3-content{
-    width: 60%;
-}
-.card-main-5{
-    margin-left: 150px;
-}
-.section-6-title{
-    margin-top:180px;
-    text-align: center;
-    margin-left: 385px;
-}
-.left-side6 img{
-    width: 400px;
-}
-.left-side6{
-    margin-right: 110px;
-    text-align: center;
-}
-.left-side6 p{
-    font-size: 10px;
-    width: 80%;
-    margin: auto;
-    margin-top: 10px;
-}
-.right-side6 p{
-    margin-bottom: 20px;
-    position: relative;
-}
-.right-side6 p::before{
-    content: "";
-    width: 1px;
-    height: 100%;
-    position: absolute;
-    background-color: #DBA620;
-    left:-25px;
-}
-.section-6-title span{
-    color: #DBA620;
-}
+
    /*footer*/
   footer{
     margin-top: 50px;
@@ -378,3 +303,276 @@
    .lii{
     margin-top: -7px;
    }
+
+   @media (max-width:1326px){
+    .nav-links ul li a{
+      font-size: 9px;
+    }
+
+    footer .about ul li a{
+      font-size: 12px;
+    }
+    .address p,
+    .contacts p{
+      font-size: 10px;
+    }
+    .address h5,
+    .contacts h5{
+      font-size: 13px;
+    }
+  
+   }
+  
+   @media (max-width:1110px) {
+   .about ul li a,
+   .service-to-society p a,
+   .service-to-society ul li a{
+    font-size: 10px;
+   }
+  .section-3{
+    margin-left: 0px;
+  }
+  .section-1 p,
+  .section-2 p,
+  .section-3 p,
+  .subtitle p{
+    font-size: 13px;
+  }
+  .container-main{
+    margin-right: 100px;
+  }
+  .right-side2{
+    margin-top: 50px;
+  }
+  .right-side1 img,
+  .left-side2 img{
+    width: 500px;
+  }
+  .section-1,
+  .section-2{
+    display: block;
+  }
+  .card-h4{
+    letter-spacing: 1px;
+    width: 100%;
+  }
+  .container-footer{
+    margin-left: 70px;
+    margin-right: 100px;
+  }
+  .address p,
+  .contacts p {
+    font-size: 8px;
+  }
+  .address h5,
+  .contacts h5{
+    font-size: 10px;
+  }
+  .social-medias p{
+    font-size:10px;
+  }
+  .social-items{
+    width: 12%;
+  }
+  .social-items a img{
+    width: 80%;
+  }
+  footer .about ul li a{
+    font-size: 10px;
+  }
+   }
+   
+   @media (max-width:1000px){
+    .container-main,
+    .div-direction{
+      margin-left: 140px;
+    }
+    .nav__item .circle{
+      width: 20px;
+    }
+
+   } 
+  
+   @media (max-width:900px){
+
+    .title{
+      font-size: 13px;
+    }
+    .nav__link{
+      font-size: 10px;
+    }
+    .search-form button img {
+      width: 15px;
+      height: 13px;
+    }
+    .about ul,
+    .service-to-society{
+      display: none;
+    }
+    .colored-line{
+      display: none;
+    }
+    .footer-info{
+      margin-top: -20px;
+    
+    }
+    .social-items{
+      width: 35%;
+    }
+   }
+   
+   @media (max-width:800px){
+    .container-nav{
+      display: block;
+      margin: 5px;
+      padding-bottom: 0px;
+    }
+    .nav1{
+      margin: 0px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .logo_image{    
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 10px;
+    }
+    .card-h4::after{
+      display: none;
+    }
+    .subtitle{
+      text-align: left;
+    }
+    .section-3{
+      display: block;
+    }
+    .section-3 .card-main{
+      margin-bottom: 40px;
+    }
+    .nav_menu{
+      padding: 0% 6%;
+      padding-top: 2%;
+      position: relative;
+    }
+    .nav_menu::before{
+      content: "";
+      width: 100%;
+      height: 8%;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .nav2{
+      display: none;
+    }
+    .cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      gap: 50px;
+    }
+    .service-to-society{
+      margin-top: -50px;
+    }
+    .social-items{
+      width: 35%;
+    }
+   }
+   @media (max-width:638px){
+    .container-main,
+    .div-direction{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .social-medias p{
+      display: none;
+    }
+    .social-items{
+      width: 30%;
+    }
+    .about h4{
+      width: 120%;
+    }
+    .section-1 img{
+      width: 400px;
+    }
+   }
+   @media (max-width:541px){
+  
+    .container-footer{
+      margin-right: 20px;
+      margin-left: 40px;
+    }
+    .section-1 img{
+      width: 350px;
+    }
+    .section-3{
+      display: none;
+    }
+    .hamb{
+      display: block;
+    }
+    .nav__item .hamb{
+      width: 20px;
+    }
+    .nav__item .circle{
+      width: 20px;
+    }
+    .search-form{
+      margin-left: -15px;
+      width: 80%;
+    }
+    .colored-line{
+      display: none;
+    }
+    .cards-footer-info{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .cards{
+      display: flex;
+      flex-direction: column;
+      margin-top: 90px;
+      margin-right: 60px;
+  
+    }
+    .card{
+      margin-top: -84px;
+    }
+    .footer-info{
+      flex-direction: column;
+      align-items: baseline;
+    }
+    .about{
+      width: 100%;
+    }
+    .card-h4{
+    font-size: 10px;
+    height: 1px;
+    }
+    .address{
+      margin-bottom: 20px;
+    }
+    .contacts p {
+      font-size: 11px;
+      opacity: 0.8;
+  
+    }
+    .address p{
+      font-size: 11px;
+      opacity: 0.8;
+      width: 80%;
+    }
+    .address h5,
+    .contacts h5{
+      font-size: 12px;
+      width: 80%;
+    }
+  
+    .search-form,
+    .search-form input[type="text"] {
+    width: 80%;
+    }
+  }

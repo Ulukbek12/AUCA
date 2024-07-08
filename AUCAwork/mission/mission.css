@@ -116,9 +116,6 @@ ul li{
   color: #D8D8D8;
   opacity: 0.9;
 }
-.hamb{
-  display: none;
-}
 .nav-links ul li a{
   font-size: 9px;
   font-weight: 600;
@@ -129,7 +126,7 @@ ul li{
 }
 .div-direction {
   margin-top: -10px;
-  margin-left: 210px;
+  margin-left: 170px;
 }
 .directions{
   font-size: 10px;
@@ -138,106 +135,141 @@ ul li{
   margin-bottom: 10px;
 }
 /*main*/
-.container-main{
-  margin-top: 10px;
-  margin-left: 210px;
+p {
+  font-size: 14.5px;
+  font-weight: 500;
 }
-.title{
-  font-size: 25px;
+
+h1 {
   font-weight: 600;
 }
-.accredetation{
-  margin-top: 10px;
-}
-.parag{
-  width: 100%;
-  font-size: 18px;
-  margin-top: 15px;
-  font-weight: 400;
-}
 
-.glance_submenu{
-  background-color: #2D457C;
-  width: 200px;
-  margin-left: 20px;
-  padding-left: 40px;
-  padding-right:20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.container-main {
+  margin: 0px 170px;
 }
-.left-right-sides-holder{
+.right-side2 {
+  display: none;
+}
+.section-1 {
   display: flex;
-  align-items: baseline;
-}
-.description h4{
-  color: #fff;
-  font-size: 13px;
-  font-weight: 500;
-  padding-bottom: 3px;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
-.description ul li a{
-  font-size: 9px;
-  color: #D8D8D8;
-}
-.description ul li{
-  margin-bottom: -3px;
+.right-side1 img {
+  width: 450px;
 }
 
-.accredetation{
+.section-7-title{
+  display: none;
+}
+.left-side1 {
+  margin-right: 30px;
+}
+
+.left-side1 p {
   margin-bottom: 20px;
 }
- .undergraduate h4{
-  margin-top: 7px;
-  margin-bottom: 17px;
+
+.section-3 {
+  margin-left: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-3 .card-main{
+  margin-top: 50px;
+}
+.card-main {
+  margin-left: 30px;
+}
+
+.section-3-title {
+  margin-bottom: 15px;
+}
+
+.section-3-title span {
   color: #DBA620;
+}
+
+.section-3-content {
+  width: 75%;
+  margin-left: 45px;
   position: relative;
- }
- .undergraduate h4{
-  font-size: 17px;
-  font-weight: 400;
- }
- .undergraduate h4::before{
-  content: "";
-  display: block;
-  position: absolute;
-  top:-4px;
-  left: -8px;
-  width: 2px;
-  height: 35px;
-  background: #DBA620;
- }
+}
 
-.undergraduate ul li a,
-.graduate ul li a{
-  font-size: 12px;
-  color: #1E1E1E;
-  font-weight: 400;
-}
-.undergraduate ul li{
-  line-height: 1.4;
-  list-style: none;
-}
-.graduate{
-  margin-top: 30px;
-}
-.graduate h4::before{
+.section-3-content::before {
   content: "";
-  display: block;
+  width: 1px;
+  height: 110%;
   position: absolute;
-  top:-4px;
-  left: -8px;
-  width: 2px;
-  height: 35px;
-  background: #DBA620;
- }
+  background-color: #DBA620;
+  left: -45px;
+  top: -5px;
+}
 
- .graduate ul li {
-  list-style: inside;
-  margin-left: -10px;
- }
+.section-4-title {
+  margin-top: 120px;
+  margin-bottom: 25px;
+  color: #DBA620;
+}
+
+.left-side4 {
+  margin-right: 40px;
+}
+
+.card-main-5 .section-3-content {
+  width: 60%;
+}
+
+.card-main-5 {
+  margin-left: 150px;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.section-6-title {
+  text-align: center;
+  margin-left: 380px;
+}
+
+.left-side6 img {
+  width: 400px;
+}
+
+.left-side6 {
+  margin-right: 110px;
+  text-align: center;
+}
+
+.left-side6 p {
+  font-size: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.right-side6 p {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.right-side6 p::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background-color: #DBA620;
+  left: -25px;
+}
+
+.section-6-title span {
+  color: #DBA620;
+}
+
  /*footer*/
- footer{
+footer{
   margin-top: 50px;
   padding-bottom: 30px;
   background-color: #1F3058;
@@ -358,40 +390,12 @@ footer .about ul li{
  .lii{
   margin-top: -7px;
  }
+
  @media (max-width:1326px){
   .nav-links ul li a{
     font-size: 9px;
   }
-  .directions{
-    font-size: 11px;
-  }
-  .parag{
-    font-size: 15px;
-  }
-  .title{
-    font-size: 25px;
-  }
-  .glance_submenu{
-    width: 250px;
-    padding: 20px 1px 20px 30px;
-  }
-  .description h4{
-    font-size: 14px
-  }
-  
-  .description ul li a{
-    font-size: 12px;
-  }
-  .undergraduate h4{
-    font-size: 15px;
-  }
-  .undergraduate ul li a{
-    font-size: 13px;
-  }
 
-  .card-h4{
-    width: 100%;
-  }
   footer .about ul li a{
     font-size: 12px;
   }
@@ -407,33 +411,54 @@ footer .about ul li{
  }
 
  @media (max-width:1110px) {
-
-  .parag{
-    font-size: 13px;
-  }
-
-  .glance_submenu{
-    width: 200px;
-    padding: 20px 1px 20px 30px;
-  }
-  .description h4{
-    font-size: 11px
-  }
-  
-  .description ul li a{
-    font-size: 9px;
-  }
-
- .undergraduate h4{
-  font-size: 12px;
- }
-
  .about ul li a,
  .service-to-society p a,
  .service-to-society ul li a{
   font-size: 10px;
  }
-
+ .section-3{
+  display: block;
+ }
+ .section-3 .card-main{
+  margin-top: 50px;
+ }
+ .section-4{
+  display: block;
+ }
+ .right-side2{
+  display: block;
+  margin-bottom: 20px;
+ }
+ .section-3-title{
+  text-align: left;
+ }
+ .right-side2 img{
+  width: 90%;
+ }
+ .right-side7 {
+  display: none;
+ }
+ .section-6{
+  margin-left: 15%;
+  flex-direction: column;
+ }
+.left-side6{
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+ .section-6-title{
+  display: none;
+ }
+ .section-7-title{
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: 0px;
+ }
+ .card-main-5{
+  margin-bottom: 60px;
+ }
 .card-h4{
   letter-spacing: 1px;
   width: 100%;
@@ -475,14 +500,11 @@ footer .about ul li a{
  } 
 
  @media (max-width:900px){
-  .left-right-sides-holder{
-    display: flex;
-    flex-direction: column;
+  .container-main{
+    margin-left: 150px;
+    margin-right: 40px;
   }
-  .glance_submenu{
-    margin-top: 30px;
-    margin-left: -1%;
-  }
+
   .nav__link{
     font-size: 10px;
   }
@@ -512,10 +534,33 @@ footer .about ul li a{
     margin: 5px;
     padding-bottom: 0px;
   }
+  .div-direction{
+    display: none;
+  }
   .nav1{
     margin: 0px;
     padding-left: 0;
     padding-right: 0;
+  }
+  .card-main{
+    width: 100%;
+    margin-left: 1px;
+  }
+  .section-3 .card-main{
+    margin-left: -105px;
+  }
+  .section-6-title{
+    margin-left: -90px;
+  }
+  .left-side6 img {
+    width: 300px;
+  }
+  .left-side6{
+    margin-left: -140px;
+  }
+  .right-side6{
+    margin-left: -55px;
+
   }
   .logo_image{    
     text-align: center;
@@ -558,8 +603,8 @@ footer .about ul li a{
  @media (max-width:638px){
   .container-main,
   .div-direction{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .social-medias p{
     display: none;
@@ -570,12 +615,31 @@ footer .about ul li a{
   .about h4{
     width: 120%;
   }
+  .card-main{
+    width: 120%;
+  }
  }
  @media (max-width:541px){
-
+  .section-7-title{
+    margin-left: -25px;
+    font-size: 14px;
+  }
+  .container-main{
+    margin-left: 10%;
+  }
   .container-footer{
     margin-right: 20px;
     margin-left: 40px;
+  }
+  .left-side6{
+    margin-left: -50px;
+  }
+  .right-side6{
+    margin-left:-21px;
+  }
+  .left-side6 img{
+    width: 110%;
+    margin: auto;
   }
   .hamb{
     display: block;
@@ -642,6 +706,4 @@ footer .about ul li a{
   .search-form input[type="text"] {
   width: 80%;
   }
-
-
- }
+}

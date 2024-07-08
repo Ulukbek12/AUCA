@@ -13,9 +13,6 @@ header{
 ul li{
   list-style: none;
 }
-.hamb{
-  display: none;
-}
 .nav1{
   padding: 1.5% 6%;
   align-items: center;
@@ -28,15 +25,12 @@ ul li{
   margin-right: 40px;
 }
 .nav1 img{
-  width: 90%;
-  height: 90%;
+  width: 200px;
+  height: 53px;
 }
 .nav1{
   flex: 1;
   text-align: right;
-}
-.hamb{
-  display: none;
 }
 .nav1 ul li{
   display: inline-block;
@@ -67,8 +61,8 @@ ul li{
 }
 .nav1 .circle{
   color: #D8D8D8;
-  width:90%;
-  height: 90%;
+  width: 15.67px;
+  height: 16px;
   padding-top: 5px;
 }
 .search-form {
@@ -112,54 +106,53 @@ ul li{
 .nav-links ul li{
   display: inline-block;
   list-style: none;
+  padding-left: 28px;
   padding-top: 7px;
   padding-bottom: 10px;
-  margin-right:55px;
-}
-.nav-links ul{
-  padding-left: 20px;
+  margin-right: 5px;
+  position: relative;
 }
 .nav__link{
   color: #D8D8D8;
   opacity: 0.9;
 }
+.hamb{
+  display: none;
+}
 .nav-links ul li a{
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 9px;
+  font-weight: 600;
   color: #D8D8D8;
-  opacity: 0.8;
 }
 .nav-links{
   margin: 0px 45px;
 }
 .div-direction {
   margin-top: -10px;
-  margin-left: 210px;
+  margin-left: 170px;
 }
 .directions{
-  font-size: 14px;
+  font-size: 10px;
   color: #808080;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
   /*main*/
 
-.container-main{
-    margin-left:  210px;
-    margin-right: 180px;
-}
-.map1{
-  display: none;
+  .container-main{
+    margin-left: 170px;
+    margin-right: 110px;
 }
 .text h2{
  margin-top: 15px;
- font-weight: 700;
- font-size: 31px;
+ font-weight: 600;
+ font-size: 26;
 }
 
 .text p{
     margin-top: 20px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 13.5px;
+    font-weight: 400;
 }
 .video{
     margin-top: 40px;
@@ -175,34 +168,31 @@ ul li{
 .map img{
     width: 90%;
 }
+.map1{
+  display: none;
+}
 .right-side{
-    padding-left: 0px;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
 .card-main a{
     color: #000;
     text-align: left;
-    font-size: 29px;
+    font-size: 20px;
 }
 .under-card{
     display: flex;
     align-items:center;
 }
 .under-card a{
-    font-size: 20px;
-}
-.bard a{
-  width: 110%;
-}
-.links{
-  margin-bottom: 10px;
+    font-size: 12px;
 }
 .under-card img{
-    width: 15%;
+    width: 7.5%;
     padding-right: 5px;
     padding-top: 2px;
 }
@@ -212,17 +202,17 @@ ul li{
   padding: 25px 5px;
   display: flex;
   justify-content: center;
-  margin-top: 55px;
+  margin-top: 45px;
 }
 .description h4{
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   padding-bottom: 3px;
 }
 
 .description ul li a{
-  font-size: 13px;
+  font-size: 11px;
   color: #D8D8D8;
 }
 .description ul li{
@@ -254,32 +244,31 @@ ul li{
   .social-items{
     display: flex;
   }
-  
-  footer .about ul li{
-    margin-bottom: 10px;
-    color: #FFFFFF;
-    font-weight: 400;
-    opacity: 0.8;
-  }
-  footer .about ul li a{
-    font-size: 14px;
-    opacity: 0.9;
-  }
-  .card-h4{
-    letter-spacing: 1px;
-    width: 100%;
+  footer .about h4{
     color: #fff;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: bold;
     margin-bottom: 10px;
     position: relative;
   }
+  footer .about ul li{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  .card-h4{
+    letter-spacing: 1px;
+    width: 70%;
+  }
   .card-h4::after{
     content: '';
-    width: 85%;
+    width: 100%;
     height: 2px;
     background: #DBA620;
     display: block;
+  
     transition: 0.35s linear;
   }
   .about{
@@ -289,14 +278,11 @@ ul li{
    color: #fff;
    opacity: 0.8;
    margin-bottom: 10px;
-  font-size: 17px;
   }
   
   .service-to-society ul li{
     opacity: 0.8;
     margin-bottom: 10px;
-    font-size: 15px;
-    opacity: 0.9;
   }
   .cards{
     display: flex;
@@ -323,12 +309,12 @@ ul li{
   }
   
   .address h5{
-   font-size: 15px;
-   font-weight: 500;
+   font-size: 13px;
+   font-weight: 400;
    margin-bottom: 2px;
   }
   .address p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight:lighter;
   }
   .contacts{
@@ -336,12 +322,12 @@ ul li{
     letter-spacing: 0.5px;
   }
   .contacts h5{
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 400;
     margin-bottom: 2px;
    }
    .contacts p{
-     font-size: 14px;
+     font-size: 12px;
      font-weight:lighter;
    }
    .with-icon{
@@ -355,6 +341,7 @@ ul li{
     margin-top: -7px;
    }
  /*footer header*/
+   /*footer header*/
    @media (max-width:1326px){
     .nav-links ul li a{
       font-size: 9px;
@@ -413,9 +400,9 @@ ul li{
   width: 100%;
 }
    }
-  
+
    @media (max-width:1110px) {
-  
+
    .about ul li a,
    .service-to-society p a,
    .service-to-society ul li a{
@@ -447,7 +434,7 @@ ul li{
     font-size: 10px;
   }
    }
-   
+
    @media (max-width:1000px){
     .container-main,
     .div-direction{
@@ -457,13 +444,13 @@ ul li{
       width: 20px;
     }
    } 
-  
+
    @media (max-width:900px){
 
     .nav__link{
       font-size: 10px;
     }
-  
+
     .search-form button img {
       width: 15px;
       height: 13px;
@@ -516,12 +503,19 @@ ul li{
   font-size: 16px;
 }
    }
-   
+
    @media (max-width:800px){
-    .container-main,
+    .links-glance{
+     margin-bottom: 50px; 
+     margin-left: -70px;
+    }
     .div-direction{
+      display: none;
+    }
+    .container-main{
       margin-left: 20%;
       margin-right: 10%;
+      margin-top: 50px;
     }
     .container-nav{
       display: block;
@@ -583,36 +577,46 @@ ul li{
   .map1{
     text-align: center;
   }
+  .about h4{
+    width: 120%;
+  }
    }
    @media (max-width:541px){
-  
+
+    .container-main{
+      margin-left: 40px;
+    }
     .container-footer{
       margin-right: 20px;
       margin-left: 40px;
     }
     .links-holder{
-      margin-right: 10%;
+     margin-left: -100px;
     }
+    .card-main h1 a{
+      font-size: 14px;
+    }
+    .under-card a,
+    .description ul li a,
+    .description h4{
+      font-size: 10px;
+    }
+
     .hamb{
       display: block;
     }
     .nav__item .hamb{
       width: 20px;
+      height: 100%;
     }
     .nav__item .circle{
       width: 20px;
+      height: 100%;
     }
     .video img{
       width: 100%;
     }
-    .links-glance{
-      margin-left: 35px;
-      margin-bottom: 50px;
-    }
-    .search-form{
-      margin-left: -15px;
-      width: 80%;
-    }
+
     .colored-line{
       display: none;
     }
@@ -626,7 +630,7 @@ ul li{
       flex-direction: column;
       margin-top: 90px;
       margin-right: 60px;
-  
+
     }
     .card{
       margin-top: -84px;
@@ -648,7 +652,7 @@ ul li{
     .contacts p {
       font-size: 11px;
       opacity: 0.8;
-  
+
     }
     .address p{
       font-size: 11px;
@@ -660,7 +664,7 @@ ul li{
       font-size: 12px;
       width: 80%;
     }
-  
+
     .search-form,
     .search-form input[type="text"] {
     width: 80%;
@@ -670,6 +674,7 @@ ul li{
       .under-card a{
         font-size: 12px;
       }
+
       .under-card{
         width: 130%;
       }
@@ -681,4 +686,4 @@ ul li{
         margin-left: -20px;
       }
     }
-   }
+  }
