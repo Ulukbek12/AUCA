@@ -166,10 +166,10 @@ ul li{
     padding-bottom: 40px;
 }
 .map img{
-    width: 90%;
+  width: 90%;
 }
 .map1{
-  display: none;
+display: none;
 }
 .right-side{
     padding-left: 50px;
@@ -340,14 +340,9 @@ ul li{
    .lii{
     margin-top: -7px;
    }
- /*footer header*/
-   /*footer header*/
    @media (max-width:1326px){
     .nav-links ul li a{
       font-size: 9px;
-    }
-    .directions{
-      font-size: 11px;
     }
 
     footer .about ul li a{
@@ -361,54 +356,21 @@ ul li{
     .contacts h5{
       font-size: 13px;
     }
-  .text p{
-    font-size: 12px;
-  }
-  .right-side .map img{
-    width: 100%;
-  }
-  .card-main h1 a{
-    font-size: 20px;
-  }
-  .under-card a{
-    font-size: 15px;
-    width: 100%;
-  }
-  .bard{
-    width: 110%;
-  }
-  .under-card img{
-    width: 20%;
-  }
-  .description h4{
-    font-size: 12px;
-  }
-  .description ul li a{
-    font-size: 10px;
-  }
-  .links{
-    margin-bottom: 0px;
-  }
-  .glance_submenu{
-    width: 150px;
-    padding-left: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-.left-side{
-  margin-right: 100px;
-  width: 100%;
-}
+  
    }
-
+  
    @media (max-width:1110px) {
-
+  
    .about ul li a,
    .service-to-society p a,
    .service-to-society ul li a{
     font-size: 10px;
    }
-
+  
+  .card-h4{
+    letter-spacing: 1px;
+    width: 100%;
+  }
   .container-footer{
     margin-left: 70px;
     margin-right: 100px;
@@ -434,23 +396,66 @@ ul li{
     font-size: 10px;
   }
    }
-
+   
    @media (max-width:1000px){
-    .container-main,
-    .div-direction{
-      margin-left: 140px;
+
+    .text p{
+      font-size: 15px;
     }
     .nav__item .circle{
       width: 20px;
     }
+    .sides-holder,
+    .right-side{
+      display: block;
+  }
+  .map{
+    display: none;
+  }
+  .map1{
+    display: block;
+  }
+  .video img{
+    width: 100%;
+  } 
+  .links-glance{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 73%;
+    margin-left: 50px;
+  }
+  .glance_submenu{
+    background-color: #fff;
+    width: 30%;
+    height: 30%;
+    padding: 25px 25px;
+  }
+  .description h4{
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    width: 110%;
+  }
+  .description ul li a{
+    color: blue;
+    opacity: 0.5;
+    margin-bottom: 2px;
+  }
+  .map1 img{
+    width: 90%;
+  }
+ 
    } 
-
+  
    @media (max-width:900px){
 
+    .map1 img{
+      width: 90%;
+    }
     .nav__link{
       font-size: 10px;
     }
-
     .search-form button img {
       width: 15px;
       height: 13px;
@@ -464,59 +469,44 @@ ul li{
     }
     .footer-info{
       margin-top: -20px;
+    
     }
     .social-items{
       width: 35%;
     }
-    .card-h4::after{
-      display: none;
-    }
-
-    .sides-holder{
-      display: block;
-    }
-.links-glance{
-  display: flex;
-  align-items: baseline;
-  justify-content: space-around
-}
-.links-holder{
-  margin-right: 120px;
-}
-.map{
-  display: none;
-}
-.map1{
-  display: block;
-}
-.glance_submenu{
-  background-color: #fff;
+  }
+   
+   @media (max-width:800px){
+    .container-main{
+      margin-left: 45px;
+      margin-right: 45px;
+  }
+ .map1 img{
+  width: 70%;
+ }
+ .map1 {
+  text-align: center;
+  margin-left: -70px;
+ }
+ .links-glance{
+  width: 90%;
+  margin: auto;
+ }
+.description h4{
+  font-size: 13px;
 }
 .description ul li a{
- color: #3665AB;
- font-weight: 500;
- opacity: 1;
+  font-size: 9px;
 }
-.description h4{
-  color: #000;
-  font-weight: 600;
-  font-size: 16px;
+.card-main h1 a{
+  font-size: 15px;
 }
-   }
-
-   @media (max-width:800px){
-    .links-glance{
-     margin-bottom: 50px; 
-     margin-left: -70px;
-    }
-    .div-direction{
-      display: none;
-    }
-    .container-main{
-      margin-left: 20%;
-      margin-right: 10%;
-      margin-top: 50px;
-    }
+.under-card img{
+  width: 15%;
+}
+  .div-direction{
+    display: none;
+  }
     .container-nav{
       display: block;
       margin: 5px;
@@ -532,6 +522,9 @@ ul li{
       width: 50%;
       margin: auto;
       padding-bottom: 10px;
+    }
+    .card-h4::after{
+      display: none;
     }
     .nav_menu{
       padding: 0% 6%;
@@ -563,45 +556,45 @@ ul li{
     }
    }
    @media (max-width:638px){
-
+    .text p{
+      font-size: 12px;
+    }
+    .links-glance{
+      width: 95%;
+     }
     .social-medias p{
       display: none;
     }
     .social-items{
       width: 30%;
     }
-  .map1 img{
-    width: 80%;
-    margin: auto;
-  }
-  .map1{
-    text-align: center;
-  }
-  .about h4{
-    width: 120%;
-  }
+    .about h4{
+      width: 120%;
+    }
    }
    @media (max-width:541px){
-
-    .container-main{
-      margin-left: 40px;
+    .description h4{
+      font-size: 11px;
     }
+    .description ul li a{
+      font-size: 9px;
+    }
+    .card-main h1 a{
+      font-size: 12px;
+    }
+    .under-card a {
+      font-size: 9px;
+    }
+    .links-glance{
+      width: 100%;
+     }
+     .glance_submenu{
+      margin-right: 30px;
+     }
     .container-footer{
       margin-right: 20px;
       margin-left: 40px;
     }
-    .links-holder{
-     margin-left: -100px;
-    }
-    .card-main h1 a{
-      font-size: 14px;
-    }
-    .under-card a,
-    .description ul li a,
-    .description h4{
-      font-size: 10px;
-    }
-
     .hamb{
       display: block;
     }
@@ -611,12 +604,11 @@ ul li{
     }
     .nav__item .circle{
       width: 20px;
-      height: 100%;
     }
-    .video img{
-      width: 100%;
+    .search-form{
+      margin-left: -15px;
+      width: 80%;
     }
-
     .colored-line{
       display: none;
     }
@@ -630,7 +622,7 @@ ul li{
       flex-direction: column;
       margin-top: 90px;
       margin-right: 60px;
-
+  
     }
     .card{
       margin-top: -84px;
@@ -652,7 +644,7 @@ ul li{
     .contacts p {
       font-size: 11px;
       opacity: 0.8;
-
+  
     }
     .address p{
       font-size: 11px;
@@ -664,26 +656,20 @@ ul li{
       font-size: 12px;
       width: 80%;
     }
-
+  
     .search-form,
     .search-form input[type="text"] {
     width: 80%;
     }
-
-    @media (max-width:495px) {
-      .under-card a{
-        font-size: 12px;
-      }
-
-      .under-card{
-        width: 130%;
-      }
-      .card-main h1 a{
-        font-size: 15px;
-        font-weight: 800;
-      }
-      .links-holder{
-        margin-left: -20px;
-      }
+  }
+  @media (max-width:500px) {
+    .links-glance{
+      width: 120%;
+      margin-left: -20px;
     }
+    .sides-holder{
+      margin-bottom:-50px;
+    }
+ 
+
   }
