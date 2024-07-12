@@ -1,139 +1,156 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
-  }
-                                                        /*header*/
-  header{
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  }
-  ul li{
-    list-style: none;
-  }
-  .nav1{
-    padding: 1.5% 6%;
-    align-items: center;
-    background-color: #1F3058;
-  }
-  .container-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 30px;
-    margin-right: 40px;
-  }
-  .nav1 img{
-    width: 200px;
-    height: 53px;
-  }
-  .nav1{
-    flex: 1;
-    text-align: right;
-  }
-  .nav1 ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 8px 12px;
-    position: relative;
-  }
-  .nav_menu{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-   a{
-    text-decoration: none;
-    color:#fff;
-    font-size: 13px;
-  }
-  .description ul li{
-    list-style: none;
-  }
-  .nav__item{
-    color: #D8D8D8;
-  }
-  .nav1 ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .nav1 .circle{
-    color: #D8D8D8;
-    width: 15.67px;
-    height: 16px;
-    padding-top: 5px;
-  }
-  .search-form {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border: 1px solid #ccc; /* Граница для формы */
-  }
-  
-  .search-form input[type="text"] {
-    border: none; /* Убираем стандартную рамку поля ввода */
-    outline: none; /* Убираем обводку при фокусе */
-    padding: 5px;
-    flex: 1; /* Поле ввода занимает всё доступное пространство */
-    background-color: #D8D8D8;
-    opacity: 0.9;
-  }
-  
-  .search-form button {
-    background-color: #1F3058;
-    border: none; /* Убираем стандартную рамку кнопки */
-    padding: 7.5px;
-    cursor: pointer; /* Курсор меняется на указатель при наведении */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .search-form button img {
-    width: 15px;
-    height: 13px;
-  }
-  .container-header{
-    margin: 0 100px;
-  }
-  .nav2{
-    margin-top: 10px;
-    background-color: #2D457C;
-  }
-  
-  .nav-links ul li{
-    display: inline-block;
-    list-style: none;
-    padding-left: 28px;
-    padding-top: 7px;
-    padding-bottom: 10px;
-    margin-right: 5px;
-    position: relative;
-  }
-  .nav__link{
-    color: #D8D8D8;
-    opacity: 0.9;
-  }
-  .nav-links ul li a{
-    font-size: 9px;
-    font-weight: 600;
-    color: #D8D8D8;
-  }
-  .nav-links{
-    margin: 0px 45px;
-  }
-  .div-direction {
-    margin-top: -10px;
-    margin-left: 170px;
-  }
-  .directions{
-    font-size: 10px;
-    color: #808080;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+                                                      /*header*/
+header{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+ul li{
+  list-style: none;
+}
+.nav1{
+  padding: 1.5% 6%;
+  align-items: center;
+  background-color: #1F3058;
+}
+.container-nav{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.nav1 img{
+  width: 200px;
+  height: 53px;
+}
+.nav1{
+  flex: 1;
+  text-align: right;
+}
+.nav1 ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 3px 5px;
+  margin-right: 10px;
+  position: relative;
+  transition: 0.3s linear;
+}
+.nav1 ul li:hover{
+  background-color: #201E1E;
+}
+.nav_menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ a{
+  text-decoration: none;
+  color:#fff;
+  font-size: 13px;
+}
+.description ul li{
+  list-style: none;
+}
+.nav__item{
+  color: #D8D8D8;
+}
+.nav1 ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav1 .circle{
+  color: #D8D8D8;
+  width: 15.67px;
+  height: 16px;
+  padding-top: 5px;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc; /* Граница для формы */
+  margin-right: 20px;
+}
+
+.search-form input[type="text"] {
+  border: none; /* Убираем стандартную рамку поля ввода */
+  outline: none; /* Убираем обводку при фокусе */
+  padding: 5px;
+  flex: 1; /* Поле ввода занимает всё доступное пространство */
+  background-color: #D8D8D8;
+  opacity: 0.9;
+}
+
+.search-form button {
+  background-color: #1F3058;
+  border: none; /* Убираем стандартную рамку кнопки */
+  padding: 7.5px;
+  cursor: pointer; /* Курсор меняется на указатель при наведении */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form button img {
+  width: 15px;
+  height: 13px;
+}
+.container-header{
+  margin: 0 100px;
+}
+.nav2{
+  margin-top: 10px;
+  background-color: #2D457C;
+}
+
+.nav-links ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px 15px;
+  margin-right: 5px;
+  position: relative;
+  transition:  0.4s linear /* Добавляем плавный переход */
+
+}
+
+.nav-links ul li:hover{
+  background-color: #201E1E;
+}
+
+.nav-links ul{
+  margin-left: 15px;
+}
+.nav__link{
+  color: #D8D8D8;
+  opacity: 0.9;
+}
+.hamb{
+  display: none;
+}
+.nav-links ul li a{
+  font-size: 9px;
+  font-weight: 600;
+  color: #D8D8D8;
+}
+.nav-links{
+  margin: 0px 45px;
+}
+.div-direction {
+  margin-top: -10px;
+  margin-left: 170px;
+}
+.directions{
+  font-size: 10px;
+  color: #808080;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
   /*main*/
   .main-container{
     margin-left: 170px;
@@ -537,6 +554,7 @@
     }
     .nav__item .hamb{
       width: 20px;
+      height: 100%;
     }
     .nav__item .circle{
       width: 20px;

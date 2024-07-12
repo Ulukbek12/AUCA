@@ -35,8 +35,13 @@ ul li{
 .nav1 ul li{
   display: inline-block;
   list-style: none;
-  padding: 8px 12px;
+  padding: 3px 5px;
+  margin-right: 10px;
   position: relative;
+  transition: 0.3s linear;
+}
+.nav1 ul li:hover{
+  background-color: #201E1E;
 }
 .nav_menu{
   display: flex;
@@ -70,6 +75,7 @@ ul li{
   align-items: center;
   background-color: white;
   border: 1px solid #ccc; /* Граница для формы */
+  margin-right: 20px;
 }
 
 .search-form input[type="text"] {
@@ -106,15 +112,26 @@ ul li{
 .nav-links ul li{
   display: inline-block;
   list-style: none;
-  padding-left: 28px;
-  padding-top: 7px;
-  padding-bottom: 10px;
+  padding: 10px 15px;
   margin-right: 5px;
   position: relative;
+  transition:  0.4s linear /* Добавляем плавный переход */
+
+}
+
+.nav-links ul li:hover{
+  background-color: #201E1E;
+}
+
+.nav-links ul{
+  margin-left: 15px;
 }
 .nav__link{
   color: #D8D8D8;
   opacity: 0.9;
+}
+.hamb{
+  display: none;
 }
 .nav-links ul li a{
   font-size: 9px;
@@ -646,6 +663,7 @@ footer .about ul li a{
   }
   .nav__item .hamb{
     width: 20px;
+    height: 100%;
   }
   .nav__item .circle{
     width: 20px;
@@ -705,5 +723,8 @@ footer .about ul li a{
   .search-form,
   .search-form input[type="text"] {
   width: 80%;
+  }
+  .left-side6 {
+    width: 100%;
   }
 }
