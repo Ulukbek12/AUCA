@@ -1,0 +1,2882 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/*header*/
+header {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+ul li {
+  list-style: none;
+}
+.nav1 {
+  padding: 1.5% 6%;
+  align-items: center;
+  background-color: #1f3058;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 40px;
+}
+.nav1 img {
+  width: 200px;
+  height: 53px;
+}
+.nav1 {
+  flex: 1;
+  text-align: right;
+}
+.nav1 ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 3px 5px;
+  margin-right: 10px;
+  position: relative;
+  transition: 0.3s linear;
+}
+.nav1 ul li:hover {
+  background-color: #201e1e;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+.description ul li {
+  list-style: none;
+}
+.nav__item {
+  color: #d8d8d8;
+}
+.nav1 ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav1 .circle {
+  color: #d8d8d8;
+  width: 15.67px;
+  height: 16px;
+  padding-top: 5px;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc; /* Граница для формы */
+  margin-right: 20px;
+}
+
+.search-form input[type="text"] {
+  border: none; /* Убираем стандартную рамку поля ввода */
+  outline: none; /* Убираем обводку при фокусе */
+  padding: 5px;
+  flex: 1; /* Поле ввода занимает всё доступное пространство */
+  background-color: #d8d8d8;
+  opacity: 0.9;
+}
+
+.search-form button {
+  background-color: #1f3058;
+  border: none; /* Убираем стандартную рамку кнопки */
+  padding: 7.5px;
+  cursor: pointer; /* Курсор меняется на указатель при наведении */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form button img {
+  width: 15px;
+  height: 13px;
+}
+.container-header {
+  margin: 0 100px;
+}
+.nav2 {
+  margin-top: 10px;
+  background-color: #2d457c;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 15px;
+  margin-right: 5px;
+  position: relative;
+  transition: 0.4s linear; /* Добавляем плавный переход */
+}
+
+.nav-links ul li:hover {
+  background-color: #201e1e;
+}
+
+.nav-links ul {
+  margin-left: 15px;
+}
+
+.nav-links ul {
+  margin-left: 15px;
+  text-align: center;
+}
+
+.nav__link {
+  color: #d8d8d8;
+  opacity: 0.9;
+}
+.hamb {
+  display: none;
+}
+.nav-links ul li a {
+  font-size: 9px;
+  font-weight: 600;
+  color: #d8d8d8;
+}
+.nav-links {
+  margin: 0px 45px;
+}
+
+.support {
+  text-align: center;
+}
+.atAGlance-div-direction {
+  margin-top: -10px;
+  margin-left: 170px;
+}
+.div-direction {
+  margin-top: -10px;
+  margin-left: 210px;
+}
+.directions {
+  font-size: 10px;
+  color: #808080;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+/*main*/
+p {
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.accredetation-container-main {
+  margin-top: 10px;
+  margin-left: 210px;
+}
+.accredetation-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.accredetation {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.accredetation-parag {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.accredetation-glance_submenu {
+  background-color: #2d457c;
+  width: 200px;
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.accredetation-left-right-sides-holder {
+  display: flex;
+  align-items: baseline;
+}
+.accredetation-description h4 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+
+.accredetation-description ul li a {
+  font-size: 9px;
+  color: #d8d8d8;
+}
+.accredetation-description ul li {
+  margin-bottom: -3px;
+}
+
+.accredetation-undergraduate h4 {
+  margin-top: 7px;
+  margin-bottom: 17px;
+  color: #dba620;
+  position: relative;
+}
+.accredetation-undergraduate h4 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.accredetation-undergraduate h4::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  width: 2px;
+  height: 35px;
+  background: #dba620;
+}
+
+.accredetation-undergraduate ul li a,
+.accredetation-graduate ul li a {
+  font-size: 12px;
+  color: #1e1e1e;
+  font-weight: 400;
+}
+.accredetation-undergraduate ul li {
+  line-height: 1.4;
+  list-style: none;
+}
+.accredetation-graduate {
+  margin-top: 30px;
+}
+.accredetation-graduate h4::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -8px;
+  width: 2px;
+  height: 35px;
+  background: #dba620;
+}
+
+.accredetation-graduate ul li {
+  list-style: inside;
+  margin-left: -10px;
+}
+
+/* main atAGlance */
+.atAGlance-main-container {
+  margin-left: 170px;
+  margin-right: 150px;
+}
+.atAGlance-sides-holder1 {
+  display: flex;
+  justify-content: space-between;
+}
+.atAGlance-right-side3 {
+  display: none;
+}
+.atAGlance-right-side1 img {
+  width: 500px;
+}
+.atAGlance-left-side1 p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.atAGlance-left-side1 {
+  margin-right: 22px;
+}
+.atAGlance-title > h1 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.atAGlance-title span {
+  color: #dba620;
+}
+.atAGlance-glance_submenu {
+  background-color: #2d457c;
+  width: 250px;
+  padding: 25px 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-right: 65px;
+}
+
+.atAGlance-description h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+.atAGlance-description ul li {
+  margin-bottom: 7px;
+}
+.atAGlance-description ul li a {
+  font-size: 11px;
+  color: #d8d8d8;
+}
+.atAGlance-sides-holder2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.atAGlance-right-side2 p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.atAGlance-direct {
+  position: absolute;
+  left: 210px;
+  top: 328px;
+}
+
+/* awards-main  */
+
+.awards-container-main {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.awards-title > h1 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.awards-image4 {
+  display: none;
+}
+.awards-text p {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 13.5px;
+}
+.awards-card1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.awards-image2 img {
+  width: 400px;
+}
+.awards-image3 img {
+  width: 450px;
+}
+.awards-card3 {
+  width: 105%;
+}
+.awards-image1 img {
+  width: 320px;
+}
+.awards-card2 {
+  width: 106%;
+}
+.awards-text {
+  margin-right: 20px;
+}
+
+.awards-image2 {
+  margin-right: 20px;
+}
+
+.awards-div-direction {
+  margin-top: -10px;
+  margin-left: 170px;
+}
+
+/* historyOfAuca main */
+
+.historyOfAuca-title span {
+  color: #dba620;
+}
+
+.historyOfAuca-title > h1 {
+  font-weight: 500;
+}
+
+.historyOfAuca-container-main {
+  margin: 0px 170px;
+}
+.historyOfAuca-section-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.historyOfAuca-right-side1 img {
+  width: 450px;
+}
+.historyOfAuca-left-side1 {
+  margin-right: 30px;
+}
+.historyOfAuca-left-side1 p {
+  margin-bottom: 20px;
+}
+.historyOfAuca-subtitle {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.historyOfAuca-left-side2 img {
+  width: 480px;
+}
+.historyOfAuca-section-2 {
+  align-items: center;
+  margin-bottom: 110px;
+}
+.historyOfAuca-right-side2 p {
+  margin-bottom: 20px;
+}
+
+/* mission main */
+
+.mission-container-main {
+  margin: 0px 170px;
+}
+.mission-right-side2 {
+  display: none;
+}
+.mission-section-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.mission-right-side1 img {
+  width: 450px;
+}
+
+.mission-section-7-title {
+  display: none;
+}
+.mission-left-side1 {
+  margin-right: 30px;
+}
+
+.mission-left-side1 p {
+  margin-bottom: 20px;
+}
+
+.mission-section-3 {
+  margin-left: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mission-section-3 .mission-card-main {
+  margin-top: 50px;
+}
+.mission-card-main {
+  margin-left: 30px;
+}
+
+.mission-section-3-title {
+  margin-bottom: 15px;
+}
+
+.mission-section-3-title span {
+  color: #dba620;
+}
+
+.mission-section-3-content {
+  width: 75%;
+  margin-left: 45px;
+  position: relative;
+}
+
+.mission-section-3-content::before {
+  content: "";
+  width: 1px;
+  height: 110%;
+  position: absolute;
+  background-color: #dba620;
+  left: -45px;
+  top: -5px;
+}
+
+.mission-section-4-title {
+  margin-top: 120px;
+  margin-bottom: 25px;
+  color: #dba620;
+}
+
+.mission-left-side4 {
+  margin-right: 40px;
+}
+
+.mission-card-main-5 .mission-section-3-content {
+  width: 60%;
+}
+
+.mission-card-main-5 {
+  margin-left: 150px;
+  margin-top: 70px;
+  margin-bottom: 140px;
+}
+
+.mission-section-6-title {
+  text-align: center;
+  margin-left: 380px;
+}
+
+.mission-left-side6 img {
+  width: 400px;
+}
+
+.mission-left-side6 {
+  margin-right: 110px;
+  text-align: center;
+}
+
+.mission-left-side6 p {
+  font-size: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.mission-right-side6 p {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.mission-right-side6 p::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background-color: #dba620;
+  left: -25px;
+}
+
+.mission-section-6-title span {
+  color: #dba620;
+}
+
+/* museum main */
+
+.museum-container-main {
+  margin-left: 170px;
+  margin-right: 110px;
+}
+
+.museum-div-direction {
+  margin-top: -10px;
+  margin-left: 210px;
+}
+
+.museum-text h2 {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 26;
+}
+
+.museum-text p {
+  margin-top: 20px;
+  font-size: 13.5px;
+  font-weight: 400;
+}
+.museum-video {
+  margin-top: 40px;
+}
+.museum-video img {
+  width: 80%;
+}
+.museum-sides-holder {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.museum-map img {
+  width: 90%;
+}
+.museum-map1 {
+  display: none;
+}
+.museum-right-side {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-left: 20px;
+}
+
+.museum-card-main a {
+  color: #000;
+  text-align: left;
+  font-size: 20px;
+}
+
+.museum-card-main > h1 {
+  font-weight: bold;
+}
+
+.museum-under-card {
+  display: flex;
+  align-items: center;
+}
+.museum-under-card a {
+  font-size: 12px;
+}
+.museum-under-card img {
+  width: 7.5%;
+  padding-right: 5px;
+  padding-top: 2px;
+}
+.museum-glance_submenu {
+  background-color: #2d457c;
+  width: 250px;
+  padding: 25px 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+.museum-description h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+
+.museum-description ul li a {
+  font-size: 11px;
+  color: #d8d8d8;
+}
+.museum-description ul li {
+  margin-bottom: 7px;
+}
+
+/* newStar main */
+
+.newStar-main-container {
+  margin-left: 170px;
+  margin-right: 150px;
+}
+.newStar-first-right-side1 {
+  display: none;
+}
+
+.newStar-logo-star {
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 220px;
+}
+.newStar-logo-star img {
+  width: 60%;
+}
+.newStar-first-left-title {
+  margin-bottom: 20px;
+}
+.newStar-first-subtitle {
+  margin-bottom: 35px;
+}
+.newStar-first-left-image img {
+  width: 45%;
+}
+.newStar-first-cards-holder {
+  display: flex;
+}
+.newStar-first-subtitle {
+  width: 90%;
+}
+.newStar-first-right-title {
+  width: 200px;
+  text-align: center;
+}
+.newStar-first-right-image img {
+  width: 85%;
+}
+.newStar-first-right-side {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.newStar-seconds-card-holder {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.newStar-second-right-side {
+  margin-left: 200px;
+  line-height: 1.5;
+  width: 100%;
+}
+.newStar-second-image img {
+  width: 105%;
+}
+.newStar-secondO-subtitle p {
+  font-size: 13px;
+  width: 50%;
+  margin: auto;
+}
+.newStar-firstO-image img {
+  width: 30%;
+}
+.newStar-firstO-subtitle p {
+  font-size: 13px;
+}
+.newStar-third-part {
+  margin-top: 120px;
+  text-align: center;
+}
+.newStar-third-title {
+  margin-bottom: 15px;
+}
+.newStar-third-subtitle {
+  margin-bottom: 30px;
+}
+.newStar-third-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.newStar-fourth-subtitle {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+.newStar-fourth-part {
+  margin-top: 120px;
+}
+.newStar-fourth-text {
+  margin-bottom: 120px;
+}
+.newStar-forms-holder input,
+.newStar-forms-holder textarea {
+  display: block;
+  margin-bottom: 10px; /* Добавляем отступ между элементами */
+  width: 450px; /* Не обязательно, но может быть полезно */
+  padding: 10px;
+  border: 2px solid #2d457c;
+}
+.newStar-forms-holder textarea {
+  resize: none; /* Убирает маркер изменения размера */
+  width: 450px;
+  padding-bottom: 120px;
+}
+.newStar-forms-holder {
+  margin-top: 20px;
+  position: relative;
+}
+.newStar-forms-holder form button {
+  background-color: #2d457c;
+  color: #fff;
+  padding: 4px 40px;
+  border: none;
+  position: absolute;
+  left: 300px;
+}
+.newStar-butt {
+  display: flex;
+  align-items: center;
+}
+.newStar-butt p {
+  font-size: 12px;
+  margin-left: 8px;
+}
+.newStar-butt img {
+  margin-left: 20px;
+}
+.newStar-glance_submenu {
+  background-color: #2d457c;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 22px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+.newStar-description h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+
+.newStar-description ul li a {
+  font-size: 11px;
+  color: #d8d8d8;
+  margin-bottom: 10px;
+}
+.newStar-noIdea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newStar-archive {
+  margin-top: 160px;
+}
+.newStar-archive-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.newStar-archive-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.newStar-archive-subtitle p a {
+  color: blue;
+  position: relative;
+  font-size: 19px;
+  border-bottom: 1px;
+}
+
+.newStar-archive-subtitle {
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+.newStar-archive-subtitle a {
+  text-decoration: underline;
+}
+.archive-holder img {
+  width: 17%;
+}
+
+.archive-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/* support main */
+.support-container-main {
+  margin-left: 100px;
+  margin-right: 70px;
+}
+.support-sides-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 120px;
+}
+.support-president img {
+  width: 410px;
+}
+.support-title h1,
+.support-subtitle h4 {
+  font-weight: 600;
+}
+.support-title,
+.support-subtitle {
+  margin-bottom: 20px;
+}
+.support-content p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.support-left-side {
+  margin-right: 30px;
+}
+
+.support-learn-more {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.support-learn-more-content p {
+  font-weight: 200;
+  opacity: 0.9;
+}
+.support-learn-more-content a {
+  color: #000;
+  font-size: 15px;
+}
+.support-dir {
+  width: 3.4%;
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding: 2px 0px;
+}
+.support-dir img {
+  width: 30px;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+.support-discount {
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+.support-discount-image img {
+  width: 80%;
+  margin-top: 5px;
+}
+.support-discount-image {
+  margin-right: 5px;
+}
+.support-discount-content a {
+  color: #db2020;
+  font-weight: 600;
+  font-size: 17px;
+  text-decoration: underline;
+}
+.support-fund-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+.support-fund-title span {
+  color: #db2020;
+}
+.support-fund-image img {
+  width: 90%;
+}
+.support-fund-content h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.NGA h2 {
+  font-size: 22px;
+}
+.support-fund-content a {
+  color: #3665ab;
+  margin-left: 9px;
+  font-size: 10px;
+  opacity: 0.7;
+}
+.support-fund-content {
+  margin-left: 30px;
+}
+.support-fund-content p {
+  font-size: 10.5px;
+  font-weight: 400;
+}
+.support-fund-cards-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+.support-button {
+  text-align: center;
+}
+.support-button button {
+  border: none;
+  background-color: #db2020;
+  padding: 10px 45px;
+  color: #fff;
+  font-size: 17px;
+}
+.support-alumni-fund {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+.support-alumni-fund span {
+  color: #db2020;
+}
+.support-alumni-fund h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+.support-alumni-fund-content {
+  text-align: center;
+}
+.support-alumni-fund-content-image img {
+  width: 60%;
+}
+.support-alumni-fund-content-text {
+  text-align: left;
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.support-alumni-fund-content-text p {
+  font-weight: 400;
+}
+.support-alumni-fund-content-text h4 {
+  font-weight: 700;
+}
+
+.support-last-holder {
+  display: flex;
+  width: 33%;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  background-color: #2d457c;
+  color: #fff;
+  padding: 0px 40px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.support-left-holder {
+  margin-right: 50px;
+}
+.support-left-holder h4,
+.support-right-holder h4 {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.support-left-holder p,
+.support-right-holder p {
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+h1 {
+  font-weight: 600;
+}
+
+/* welcome main */
+
+h1 {
+  font-weight: 400;
+  font-size: 36px;
+}
+.background {
+  background-image: url(images/A\ day\ at\ American\ University\ of\ Central\ Asia\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 1px;
+}
+.main-container {
+  margin-left: 170px;
+  margin-right: 100px;
+}
+.dots img {
+  width: 0.8%;
+}
+.content-1 {
+  text-align: center;
+  margin-top: 350px;
+}
+.button-holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.subtitle p {
+  font-size: 11px;
+  color: #ffffff;
+  opacity: 0.7;
+  font-weight: 200;
+}
+.welcome {
+  background-color: #2d457c;
+  /* width: 30%; */
+  margin: auto;
+  padding: 20px 10px;
+}
+.welcome h1 {
+  color: #ffffff;
+}
+button {
+  border: none;
+}
+.button-1 button {
+  background-color: #b71c1c;
+  padding: 10px 40px;
+  margin-right: 25px;
+  color: #fff;
+}
+.button-2 button {
+  background-color: #2d457c;
+  padding: 10px 45px;
+  margin-right: 25px;
+  color: #fff;
+}
+.section-1 {
+  margin-top: 170px;
+}
+
+.section-1-title {
+  margin-bottom: 30px;
+}
+.section-1-subtitle {
+  margin-bottom: 40px;
+  font-weight: 200;
+  width: 85%;
+}
+.sides-holder {
+  display: flex;
+  align-items: flex-start;
+}
+.mini-sides-holder {
+  display: flex;
+  align-items: center;
+}
+.mini-president img {
+  width: 320px;
+}
+.mini-president {
+  margin-right: 35px;
+}
+.mini-content p {
+  font-weight: 500;
+  font-size: 12px;
+}
+.mini-content {
+  width: 350px;
+}
+.dir {
+  width: 5%;
+  height: 20px;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding-right: 2px;
+}
+.dir img {
+  width: 20px;
+  margin-right: 2px;
+  margin-top: 3px;
+}
+.right-side {
+  margin-top: -40px;
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+.learn-more-content {
+  margin-left: -5px;
+}
+.learn-more-content p {
+  font-weight: 200;
+  opacity: 0.7;
+  font-size: 11px;
+}
+.learn-more-content a {
+  color: #000;
+}
+.osun-image img,
+.tsi-image img {
+  width: 240px;
+}
+.upcoming-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.upcoming-title h1 {
+  font-weight: 700;
+  font-size: 15px;
+}
+.upcoming-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.important p {
+  font-size: 9.9px;
+  font-weight: 600;
+}
+.date {
+  background-color: #2d457c;
+  font-size: 10px;
+  text-align: center;
+  margin-right: 15px;
+  padding: 6px 10px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 8.5px;
+}
+.more-events {
+  display: flex;
+}
+.events-dir {
+  padding-right: 8px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+}
+
+.section-2 {
+  margin-top: 100px;
+}
+.section-2-title {
+  font-weight: bold;
+}
+.section-2-title span {
+  color: #2d457c;
+}
+
+.section-2-card {
+  margin-top: 30px;
+}
+.high-image img {
+  width: 100%;
+}
+.read-more a {
+  color: #3665ab;
+}
+
+.section-2-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px; /* Space between grid items */
+}
+.high-title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.high-title h4 {
+  font-size: 14px;
+}
+.high-subtitle2 {
+  margin-top: 30px;
+}
+.high-subtitle4 {
+  margin-top: 15px;
+}
+.high-subtitle3 {
+  margin-top: 15px;
+}
+.high-subtitle p {
+  font-size: 11.5px;
+  font-weight: 500;
+}
+.high-subtitle a {
+  margin-left: 10px;
+  color: #3665ab;
+  font-size: 9px;
+  opacity: 0.6;
+}
+.section-3-learn-content {
+  margin-top: -10px;
+}
+.section-3-dir img {
+  width: 80%;
+}
+.section-3-learn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-3-learn-content a {
+  color: #2d457c;
+  font-weight: 600;
+  font-size: 38px;
+  margin-right: 20px;
+}
+.section-4-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-4-card {
+  text-align: center;
+}
+.section-4-image img {
+  width: 250px;
+}
+.section-4-title {
+  margin-bottom: 10px;
+}
+.section-4-title h1 {
+  font-size: 15px;
+  color: #2d457c;
+  font-weight: 500;
+}
+.section-3 {
+  margin-top: 100px;
+}
+.section-4 {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+/*footer*/
+footer {
+  margin-top: 50px;
+  padding-bottom: 30px;
+  background-color: #1f3058;
+}
+.container-footer {
+  margin-left: 120px;
+  margin-right: 150px;
+}
+.social-medias {
+  padding-top: 13px;
+}
+.social-items a img {
+  width: 18px;
+  margin-right: 6px;
+}
+.social-medias p {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 300;
+}
+.social-items {
+  display: flex;
+}
+footer .about h4 {
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+}
+footer .about ul li {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+.card-h4 {
+  letter-spacing: 1px;
+  width: 70%;
+}
+.card-h4::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #dba620;
+  display: block;
+
+  transition: 0.35s linear;
+}
+.about {
+  margin-bottom: 60px;
+}
+.service-to-society p {
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.service-to-society ul li {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.colored-line {
+  border: none; /* Убираем стандартное оформление линии */
+  height: 2px; /* Задаем высоту линии */
+  background-color: #dba620; /* Устанавливаем цвет линии */
+  margin-top: 10px;
+}
+
+.footer-info {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.address {
+  margin-right: 30px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.address h5 {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.address p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.contacts {
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.contacts h5 {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.contacts p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.with-icon {
+  display: flex;
+  align-items: center;
+}
+.with-icon img {
+  margin-right: 9px;
+}
+.lii {
+  margin-top: -7px;
+}
+@media (max-width: 1326px) {
+  .nav-links ul li a {
+    font-size: 9px;
+  }
+  .directions {
+    font-size: 11px;
+  }
+  .accredetation-parag {
+    font-size: 15px;
+  }
+  .accredetation-title {
+    font-size: 25px;
+  }
+  .accredetation-glance_submenu {
+    width: 250px;
+    padding: 20px 1px 20px 30px;
+  }
+  .accredetation-description h4 {
+    font-size: 14px;
+  }
+
+  .accredetation-description ul li a {
+    font-size: 12px;
+  }
+  .accredetation-undergraduate h4 {
+    font-size: 15px;
+  }
+  .accredetation-undergraduate ul li a {
+    font-size: 13px;
+  }
+
+  .card-h4 {
+    width: 100%;
+  }
+  footer .about ul li a {
+    font-size: 12px;
+  }
+  .address p,
+  .contacts p {
+    font-size: 10px;
+  }
+  .address h5,
+  .contacts h5 {
+    font-size: 13px;
+  }
+
+  .newStar-title {
+    font-size: 25px;
+  }
+  .newStar-glance_submenu {
+    width: 250px;
+    padding: 20px 1px 20px 30px;
+  }
+  .newStar-description h4 {
+    font-size: 14px;
+  }
+
+  .newStar-description ul li a {
+    font-size: 12px;
+  }
+  .background {
+    height: 150vh;
+  }
+  footer .about ul li a {
+    font-size: 12px;
+  }
+  .address p,
+  .contacts p {
+    font-size: 10px;
+  }
+  .address h5,
+  .contacts h5 {
+    font-size: 13px;
+  }
+  .section-1 {
+    margin-top: 50px;
+  }
+  .right-side {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .nav-links ul li a {
+    font-size: 9px;
+  }
+  .directions {
+    font-size: 11px;
+  }
+  .text p {
+    font-size: 12px;
+  }
+  .awards-title {
+    font-size: 10px;
+  }
+  .about h4 {
+    font-size: 11px;
+  }
+  footer .about ul li a {
+    font-size: 9px;
+  }
+  .address p,
+  .contacts p {
+    font-size: 9px;
+  }
+  .address h5,
+  .contacts h5 {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-container {
+    margin-left: 100px;
+  }
+  .button-holder {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .accredetation-parag {
+    font-size: 13px;
+  }
+
+  .accredetation-glance_submenu {
+    width: 200px;
+    padding: 20px 1px 20px 30px;
+  }
+  .accredetation-description h4 {
+    font-size: 11px;
+  }
+
+  .accredetation-description ul li a {
+    font-size: 9px;
+  }
+
+  .accredetation-undergraduate h4 {
+    font-size: 12px;
+  }
+
+  .about ul li a,
+  .service-to-society p a,
+  .service-to-society ul li a {
+    font-size: 10px;
+  }
+
+  .card-h4 {
+    letter-spacing: 1px;
+    width: 100%;
+  }
+  .container-footer {
+    margin-left: 70px;
+    margin-right: 100px;
+  }
+  .address p,
+  .contacts p {
+    font-size: 8px;
+  }
+  .address h5,
+  .contacts h5 {
+    font-size: 10px;
+  }
+  .social-medias p {
+    font-size: 10px;
+  }
+  .social-items {
+    width: 12%;
+  }
+  .social-items a img {
+    width: 80%;
+  }
+  footer .about ul li a {
+    font-size: 10px;
+  }
+
+  /* atAGlance */
+  .atAGlance-sides-holder1 {
+    display: block;
+  }
+  .atAGlance-right-side1 {
+    display: none;
+  }
+  .atAGlance-right-side3 {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  /* historyOfAuca */
+  .historyOfAuca-section-1 p,
+  .historyOfAuca-section-2 p,
+  .section-3 p,
+  .historyOfAuca-subtitle p {
+    font-size: 13px;
+  }
+  .historyOfAuca-container-main {
+    margin-right: 100px;
+  }
+  .historyOfAuca-right-side2 {
+    margin-top: 50px;
+  }
+  .historyOfAuca-right-side1 img,
+  .historyOfAuca-left-side2 img {
+    width: 500px;
+  }
+  .historyOfAuca-section-1,
+  .historyOfAuca-section-2 {
+    display: block;
+  }
+
+  /* mission */
+
+  .mission-section-3 {
+    display: block;
+  }
+  .mission-section-3 .mission-card-main {
+    margin-top: 50px;
+  }
+  .mission-section-4 {
+    display: block;
+  }
+  .mission-right-side2 {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .mission-section-3-title {
+    text-align: left;
+  }
+  .mission-right-side2 img {
+    width: 90%;
+  }
+  .mission-right-side7 {
+    display: none;
+  }
+  .mission-section-6 {
+    margin-left: 15%;
+    flex-direction: column;
+  }
+  .mission-left-side6 {
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+  .mission-section-6-title {
+    display: none;
+  }
+  .mission-section-7-title {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+  .mission-card-main-5 {
+    margin-bottom: 60px;
+  }
+
+  .mission-section-4 {
+    display: block;
+  }
+
+  .newStar-description ul li {
+    margin-bottom: -0.5px;
+  }
+  .newStar-glance_submenu {
+    width: 200px;
+    padding: 20px 20px 20px 3px;
+  }
+  .newStar-description h4 {
+    font-size: 11px;
+  }
+
+  .newStar-description ul li a {
+    font-size: 9px;
+  }
+  .support-sides-holder {
+    display: block;
+  }
+  .support-container-main {
+    margin-left: 100px;
+    margin-right: 70px;
+  }
+  .support-president img {
+    width: 90%;
+  }
+  .support-discount-content p {
+    font-size: 13px;
+  }
+  .support-learn-more-content p a {
+    font-size: 13px;
+  }
+
+  .support-dir img {
+    width: 90%;
+  }
+
+  .about ul li a,
+  .service-to-society p a,
+  .service-to-society ul li a {
+    font-size: 10px;
+  }
+  .main-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .welcome {
+    background-color: #2d457c;
+    width: 30%;
+    margin: auto;
+    padding: 20px 8%;
+  }
+
+  .section-4-image img {
+    width: 200px;
+  }
+  .card-h4 {
+    letter-spacing: 1px;
+    width: 100%;
+  }
+  .container-footer {
+    margin-left: 70px;
+    margin-right: 100px;
+  }
+  .address p,
+  .contacts p {
+    font-size: 8px;
+  }
+  .address h5,
+  .contacts h5 {
+    font-size: 10px;
+  }
+  .social-medias p {
+    font-size: 10px;
+  }
+  .social-items {
+    width: 12%;
+  }
+  .social-items a img {
+    width: 80%;
+  }
+  footer .about ul li a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container-main,
+  .div-direction {
+    margin-left: 140px;
+  }
+  .nav__item .circle {
+    width: 20px;
+  }
+
+  /* atAGlance */
+  .atAGlance-right-side2 p,
+  .atAGlance-left-side1 p {
+    font-size: 13px;
+  }
+  .atAGlance-right-side3 img {
+    width: 90%;
+  }
+
+  /* awards */
+  .awards-container-main,
+  .div-direction {
+    margin-left: 140px;
+  }
+  .awards-image img {
+    width: 300px;
+  }
+  .awards-image3 img {
+    width: 400px;
+  }
+
+  /* history */
+  .historyOfAuca-container-main,
+  .div-direction {
+    margin-left: 140px;
+  }
+
+  /* mission */
+  .mission-container-main,
+  .div-direction {
+    margin-left: 140px;
+  }
+  .museum-text p {
+    font-size: 15px;
+  }
+  .museum-sides-holder,
+  .museum-right-side {
+    display: block;
+  }
+  .museum-map {
+    display: none;
+  }
+  .museum-map1 {
+    display: block;
+  }
+  .museum-video img {
+    width: 100%;
+  }
+  .museum-links-glance {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 73%;
+    margin-left: 50px;
+  }
+  .museum-glance_submenu {
+    background-color: #fff;
+    width: 30%;
+    height: 30%;
+    padding: 25px 25px;
+  }
+  .museum-description h4 {
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    width: 110%;
+  }
+  .museum-description ul li a {
+    color: blue;
+    opacity: 0.5;
+    margin-bottom: 2px;
+  }
+  .museum-map1 img {
+    width: 90%;
+  }
+
+  .newStar-seconds-card-holder {
+    display: block;
+  }
+  .newStar-second-image img {
+    width: 60%;
+  }
+  .newStar-second-right-side {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .newStar-first-right-side {
+    display: none;
+  }
+  .newStar-first-right-side1 {
+    display: block;
+  }
+  .newStar-first-right-side1 {
+    display: block;
+  }
+  .newStar-first-right-side1 img {
+    width: 50%;
+  }
+  .newStar-first-left-image-first-right-side1 {
+    display: flex;
+    align-items: center;
+  }
+  .newStar-first-right-title1 h1 {
+    font-size: 16px;
+  }
+  .newStar-first-left-image img {
+    width: 90%;
+  }
+  .newStar-firstO-subtitle p {
+    font-size: 10px;
+  }
+  .newStar-secondO-subtitle {
+    width: 100%;
+  }
+  .newStar-glance_submenu {
+    width: 250px;
+    padding: 25px 10px;
+    margin-left: 20px;
+  }
+
+  .newStar-main-container,
+  .div-direction {
+    margin-left: 140px;
+  }
+  .newStar-description ul li {
+    margin-bottom: -1px;
+  }
+  .support-container-main,
+  .div-direction {
+    margin-left: 140px;
+  }
+  .nav__item .circle {
+    width: 20px;
+  }
+  .support-sides-holder {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 120px;
+  }
+  .support-fund-cards-holder {
+    grid-template-columns: 1fr 1fr;
+  }
+  .support-last-holder {
+    width: 50%;
+    padding-left: 10%;
+  }
+
+  .container-main,
+  .div-direction {
+    margin-left: 140px;
+  }
+  .nav__item .circle {
+    width: 20px;
+  }
+  .sides-holder {
+    display: block;
+  }
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .right-side div {
+    margin-right: 30px;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .accredetation-left-right-sides-holder {
+    display: flex;
+    flex-direction: column;
+  }
+  .accredetation-glance_submenu {
+    margin-top: 30px;
+    margin-left: -1%;
+  }
+  .nav__link {
+    font-size: 10px;
+  }
+  .search-form button img {
+    width: 15px;
+    height: 13px;
+  }
+  .about ul,
+  .service-to-society {
+    display: none;
+  }
+  .colored-line {
+    display: none;
+  }
+  .footer-info {
+    margin-top: -20px;
+  }
+  .social-items {
+    width: 35%;
+  }
+
+  .atAGlance-right-side2 p,
+  .atAGlance-left-side1 p {
+    font-size: 13px;
+  }
+  .atAGlance-sides-holder2 {
+    display: block;
+  }
+  .atAGlance-glance_submenu {
+    margin-bottom: 20px;
+    margin-top: -50px;
+  }
+
+  .awards-image img {
+    width: 200px;
+  }
+  .awards-image3 img {
+    width: 300px;
+  }
+
+  .historyOfAuca-title {
+    font-size: 13px;
+  }
+  .mission-container-main {
+    margin-left: 150px;
+    margin-right: 40px;
+  }
+  .museum-map1 img {
+    width: 90%;
+  }
+  .newStar-first-subtitle p {
+    width: 100%;
+  }
+  .newStar-description ul li {
+    margin-bottom: -3px;
+  }
+  .newStar-forms-holder input,
+  .newStar-forms-holder textarea {
+    width: 350px; /* Не обязательно, но может быть полезно */
+  }
+  .newStar-forms-holder textarea {
+    width: 350px;
+    padding-bottom: 100px;
+  }
+  .newStar-glance_submenu {
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  .newStar-forms-holder form button {
+    padding: 4px 15px;
+    left: 254px;
+  }
+  .newStar-butt {
+    display: flex;
+    align-items: center;
+  }
+  .newStar-butt p {
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  .newStar-butt img {
+    margin-left: 20px;
+  }
+  .support-discount,
+  .support-learn-more {
+    margin-left: 19%;
+  }
+
+  .welcome {
+    padding: 20px 2%;
+    width: 50%;
+  }
+  .nav__link {
+    font-size: 10px;
+  }
+  .search-form button img {
+    width: 15px;
+    height: 13px;
+  }
+  .about ul,
+  .service-to-society {
+    display: none;
+  }
+  .colored-line {
+    display: none;
+  }
+  .footer-info {
+    margin-top: -20px;
+  }
+  .social-items {
+    width: 35%;
+  }
+  .section-4-image img {
+    width: 170px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-nav {
+    display: block;
+    margin: 5px;
+    padding-bottom: 0px;
+  }
+  .nav1 {
+    margin: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .logo_image {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  .card-h4::after {
+    display: none;
+  }
+  .nav_menu {
+    padding: 0% 6%;
+    padding-top: 2%;
+    position: relative;
+  }
+  .nav_menu::before {
+    content: "";
+    width: 100%;
+    height: 8%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .nav2 {
+    display: none;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .service-to-society {
+    margin-top: -50px;
+  }
+  .social-items {
+    width: 35%;
+  }
+  .atAGlance-main-container {
+    margin-left: 5%;
+    margin-right: 1%;
+  }
+  .atAGlance-right-side2 p,
+  .atAGlance-left-side1 p {
+    font-size: 12px;
+  }
+  .atAGlance-title {
+    margin-top: 50px;
+    font-size: 15px;
+  }
+
+  .div-direction,
+  .awards-div-direction,
+  .atAGlance-div-direction {
+    display: none;
+  }
+
+  .awards-container-main {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+  }
+
+  .awards-card1 {
+    display: block;
+  }
+  .awards-image2 {
+    display: none;
+  }
+  .awards-image4 {
+    display: block;
+    margin-right: 50px;
+  }
+  .awards-image img {
+    width: 300px;
+  }
+  .awards-image3 img {
+    width: 400px;
+  }
+  .awards-image {
+    text-align: center;
+  }
+
+  .historyOfAuca-title {
+    margin-top: 20px;
+  }
+
+  .historyOfAuca-subtitle {
+    text-align: left;
+  }
+
+  .mission-card-main {
+    width: 100%;
+    margin-left: 1px;
+  }
+  .mission-section-3 .mission-card-main {
+    margin-left: -105px;
+  }
+  .mission-section-6-title {
+    margin-left: -90px;
+  }
+  .mission-left-side6 img {
+    width: 300px;
+  }
+  .mission-left-side6 {
+    margin-left: -140px;
+  }
+  .mission-right-side6 {
+    margin-left: -55px;
+  }
+  .museum-container-main {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+  .museum-map1 img {
+    width: 70%;
+  }
+  .museum-map1 {
+    text-align: center;
+    margin-left: -70px;
+  }
+  .museum-links-glance {
+    width: 90%;
+    margin: auto;
+  }
+  .museum-description h4 {
+    font-size: 13px;
+  }
+  .museum-description ul li a {
+    font-size: 9px;
+  }
+  .museum-card-main h1 a {
+    font-size: 15px;
+  }
+  .museum-under-card img {
+    width: 15%;
+  }
+  .newStar-glance_submenu {
+    padding-right: 100px;
+  }
+  .newStar-description h4,
+  .newStar-description ul li {
+    width: 300%;
+  }
+
+  .support-container-main {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .support-dir img {
+    width: 110%;
+  }
+
+  .support-discount-content p,
+  .support-discount-content p a {
+    font-size: 12px;
+  }
+
+  .support-last-holder {
+    width: 50%;
+    margin-left: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .support-alumni-fund-content-text {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+  }
+
+  .container-nav {
+    display: block;
+    margin: 5px;
+    padding-bottom: 0px;
+  }
+  .section-4-title h1 {
+    font-size: 11px;
+  }
+  .section-4-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav1 {
+    margin: 0px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .right-side {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+  }
+  .upcoming-card,
+  .learn-more {
+    justify-content: center;
+  }
+  .logo_image {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  .card-h4::after {
+    display: none;
+  }
+  .nav_menu {
+    padding: 0% 6%;
+    padding-top: 2%;
+    position: relative;
+  }
+  .nav_menu::before {
+    content: "";
+    width: 100%;
+    height: 8%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .nav2 {
+    display: none;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .service-to-society {
+    margin-top: -50px;
+  }
+  .social-items {
+    width: 35%;
+  }
+}
+
+@media (max-width: 700px) {
+  .newStar-main-container,
+  .div-direction {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .newStar-glance_submenu {
+    padding-right: 10px;
+  }
+  .newStar-description h4,
+  .newStar-description ul li {
+    width: 100%;
+  }
+  .newStar-title {
+    margin-top: 20px;
+  }
+  .div-direction,
+  .museum-div-direction,
+  .newStar-div-direction,
+  .atAGlance-div-direction {
+    display: none;
+  }
+  .newStar-description h4 {
+    font-size: 13px;
+  }
+  .newStar-description ul li a {
+    font-size: 10px;
+  }
+  .newStar-title h1 {
+    font-size: 30px;
+  }
+  .newStar-first-left-title h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 638px) {
+  .accredetation-container-main,
+  .div-direction {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .social-medias p {
+    display: none;
+  }
+  .social-items {
+    width: 30%;
+  }
+  .about h4 {
+    width: 120%;
+  }
+
+  .historyOfAuca-container-main,
+  .div-direction {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .historyOfAuca-section-1 img {
+    width: 400px;
+  }
+
+  .mission-container-main,
+  .div-direction {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .mission-card-main {
+    width: 120%;
+  }
+
+  .museum-text p {
+    font-size: 12px;
+  }
+  .museum-links-glance {
+    width: 95%;
+  }
+
+  .newStar-forms-holder input,
+  .newStar-forms-holder textarea {
+    width: 300px; /* Не обязательно, но может быть полезно */
+  }
+  .newStar-forms-holder textarea {
+    width: 300px;
+  }
+  .newStar-forms-holder form button {
+    padding: 4px 15px;
+    left: 204px;
+  }
+  .newStar-description h4 {
+    font-size: 10px;
+  }
+  .newStar-description ul li a {
+    font-size: 8px;
+  }
+
+  .support-sides-holder {
+    margin-top: 20px;
+  }
+  .support-last-holder {
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+
+  .support-alumni-fund-content-text {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+  }
+  .support-discount,
+  .support-learn-more {
+    margin-left: 1%;
+  }
+
+  .support-fund-cards-holder {
+    display: block;
+  }
+  .support-fund-image img {
+    width: 100%;
+  }
+  .support-fund-card {
+    margin-bottom: 40px;
+  }
+
+  .container-main,
+  .div-direction {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .section-2-title h1 {
+    font-weight: 700;
+    font-size: 19px;
+  }
+  .section-3-learn-content p a {
+    font-size: 20px;
+  }
+  .welcome {
+    padding: 20px 20%;
+  }
+  .section-1-title,
+  .section-1-subtitle {
+    text-align: center;
+  }
+  .section-1-title h1 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .section-1-subtitle {
+    width: 100%;
+    font-size: 14px;
+  }
+  .mini-sides-holder {
+    display: block;
+  }
+  .mini-president img {
+    width: 105%;
+  }
+  .section-2-holder {
+    display: block;
+  }
+  .learn-more {
+    justify-content: left;
+  }
+  .mini-content {
+    width: 100%;
+  }
+  .social-medias p {
+    display: none;
+  }
+  .social-items {
+    width: 30%;
+  }
+  .about h4 {
+    width: 120%;
+  }
+  .welcome-right-side {
+    display: none;
+  }
+}
+@media (max-width: 541px) {
+  .container-footer {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  .accredetation-container-main {
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+
+  .div-direction {
+    display: none;
+  }
+
+  /* awards */
+  .awards-container-main {
+    margin-left: 20px;
+  }
+  .awards-image img {
+    width: 200px;
+  }
+  .awards-image3 img {
+    width: 400px;
+  }
+  .awards-image {
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .awards-image3 {
+    margin-left: 0px;
+  }
+  .awards-image1 {
+    margin-left: 20px;
+  }
+
+  /*  */
+
+  .hamb {
+    display: block;
+  }
+  .nav__item .hamb {
+    width: 20px;
+    height: 100%;
+  }
+  .nav__item .circle {
+    width: 20px;
+    height: 100%;
+  }
+  .search-form {
+    margin-left: -15px;
+    width: 80%;
+  }
+  .colored-line {
+    display: none;
+  }
+  .cards-footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-right: 60px;
+  }
+  .card {
+    margin-top: -84px;
+  }
+  .footer-info {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .about {
+    width: 100%;
+  }
+  .card-h4 {
+    font-size: 10px;
+    height: 1px;
+  }
+  .address {
+    margin-bottom: 20px;
+  }
+  .contacts p {
+    font-size: 11px;
+    opacity: 0.8;
+  }
+  .address p {
+    font-size: 11px;
+    opacity: 0.8;
+    width: 80%;
+  }
+  .address h5,
+  .contacts h5 {
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .search-form,
+  .search-form input[type="text"] {
+    width: 80%;
+  }
+  .atAGlance-glance_submenu {
+    padding-right: 120px;
+    padding-left: 10px;
+  }
+  .atAGlance-right-side2 p,
+  .atAGlance-left-side1 p {
+    font-size: 11px;
+  }
+
+  .historyOfAuca-section-1 img {
+    width: 350px;
+  }
+
+  .historyOfAuca-left-side1,
+  .historyOfAuca-subtitle,
+  .historyOfAuca-right-side1 {
+    width: 105%;
+    line-height: 2;
+  }
+  .historyOfAuca-right-side1 {
+    margin-bottom: -30px;
+    margin-top: -10px;
+  }
+  .historyOfAuca-subtitle {
+    margin-left: 0px;
+  }
+  .historyOfAuca-right-side2 {
+    margin-bottom: -80px;
+  }
+  .historyOfAuca-left-side2 {
+    margin-top: -40px;
+    margin-bottom: 2px;
+  }
+
+  .mission-section-7-title {
+    margin-left: -25px;
+    font-size: 14px;
+  }
+  .mission-container-main {
+    margin-left: 10%;
+  }
+
+  .mission-left-side6 {
+    margin-left: -50px;
+  }
+  .mission-right-side6 {
+    margin-left: -21px;
+  }
+  .mission-left-side6 img {
+    width: 110%;
+    margin: auto;
+  }
+  .mission-left-side6 {
+    width: 100%;
+  }
+
+  .museum-description h4 {
+    font-size: 11px;
+  }
+  .museum-description ul li a {
+    font-size: 9px;
+  }
+  .museum-card-main h1 a {
+    font-size: 12px;
+  }
+  .museum-under-card a {
+    font-size: 9px;
+  }
+  .museum-links-glance {
+    width: 100%;
+  }
+  .museum-glance_submenu {
+    margin-right: 30px;
+  }
+
+  .newStar-forms-holder form button {
+    padding: 4px 15px;
+    left: 154px;
+  }
+
+  .newStar-forms-holder input,
+  .newStar-forms-holder textarea {
+    width: 250px; /* Не обязательно, но может быть полезно */
+  }
+  .newStar-forms-holder textarea {
+    width: 250px;
+  }
+  .newStar-description h4 {
+    font-size: 8px;
+  }
+  .newStar-description ul li a {
+    font-size: 7px;
+  }
+
+  .support-title {
+    font-size: 11px;
+  }
+  .support-subtitle {
+    font-size: 13px;
+  }
+  .support-content p {
+    font-size: 12px;
+  }
+  .support-container-main {
+    margin-left: 3.5%;
+    margin-right: 5%;
+  }
+  .support-alumni-fund-content-text,
+  .support-alumni-fund,
+  .support-alumni-fund-content-image {
+    text-align: left;
+  }
+  .support-alumni-fund-content-image img {
+    width: 100%;
+  }
+  .support-last-holder {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    background-color: #2d457c;
+    color: #fff;
+    padding: 0px 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .container-footer {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  .section-4-title h1 {
+    font-size: 15px;
+  }
+  .section-4-card {
+    margin-bottom: 30px;
+  }
+  .section-4-image img {
+    width: 100%;
+  }
+  .section-4-holder {
+    display: block;
+  }
+  .hamb {
+    display: block;
+  }
+  .nav__item .hamb {
+    width: 20px;
+    height: 100%;
+  }
+  .nav__item .circle {
+    width: 20px;
+  }
+  .search-form {
+    margin-left: -15px;
+    width: 80%;
+  }
+  .colored-line {
+    display: none;
+  }
+  .cards-footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-right: 60px;
+  }
+  .card {
+    margin-top: -84px;
+  }
+  .footer-info {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .about {
+    width: 100%;
+  }
+  .card-h4 {
+    font-size: 10px;
+    height: 1px;
+  }
+  .address {
+    margin-bottom: 20px;
+  }
+  .contacts p {
+    font-size: 11px;
+    opacity: 0.8;
+  }
+  .address p {
+    font-size: 11px;
+    opacity: 0.8;
+    width: 80%;
+  }
+  .address h5,
+  .contacts h5 {
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .search-form,
+  .search-form input[type="text"] {
+    width: 80%;
+  }
+  .section-1-title h1 {
+    font-size: 17px;
+  }
+
+  .section-1-subtitle {
+    width: 90%;
+    margin: auto;
+  }
+  .mini-sides-holder {
+    margin-top: 30px;
+  }
+  .welcome {
+    background-color: #2d457c;
+    width: 90%;
+    margin: auto;
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .museum-links-glance {
+    width: 120%;
+    margin-left: -20px;
+  }
+  .museum-sides-holder {
+    margin-bottom: -50px;
+  }
+}
+
+@media (max-width: 472px) {
+  .newStar-forms-holder input,
+  .newStar-forms-holder textarea {
+    width: 200px; /* Не обязательно, но может быть полезно */
+  }
+  .newStar-forms-holder textarea {
+    width: 200px;
+  }
+
+  .newStar-description h4 {
+    font-size: 8px;
+  }
+  .newStar-description ul li a {
+    font-size: 7px;
+  }
+  .newStar-description ul li {
+    margin-bottom: -2.5px;
+  }
+  .newStar-forms-holder form button {
+    padding: 4px 15px;
+    left: 104px;
+  }
+  .newStar-firstO-subtitle p {
+    font-size: 9px;
+  }
+  .newStar-firstO-title h6 {
+    font-size: 11px;
+  }
+}
